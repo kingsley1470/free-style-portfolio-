@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: ;
+    /*overflow:hidden;*/
+}
+.container-fluid {
+    height: 100vh;
+    background: rgba(16, 17, 23, 0.23);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+.column-1{
+    grid-column: 1 /span 12;
+    grid-row: 1 /span 1;
+
+}
+.colum-6{
+    grid-column: 1 /span 12;
+    grid-row: 12 /span 1;
+
+}
+.colum-3{
+    grid-column: 1 /span 1;
+    grid-row: 3 /span 9;
+
+}
+.colum-2{
+    grid-column: 1 /span 12;
+    grid-row: 2 /span 1;
+
+}
+.colum-4{
+    grid-column: 12 /span 1;
+    grid-row: 3 /span 12 ;
+
+}
+.colum-5{
+    grid-column: 2 /span 10;
+    grid-row: 3 /span 9;
+
+}
+
+.logo {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    position: center;
+    font-size: 14px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.elsideNavBar .bar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+
+}
+
+.bar li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: none;
+}
+
+li a {
+    padding: 15px 25px;
+    color: black;
+}

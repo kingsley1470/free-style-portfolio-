@@ -1,0 +1,190 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: g;
+    overflow: hidden;
+}
+
+/* .container {
+  background-image: url(../img/wall\ pic.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+} */
+
+.container-fluid {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, rgb(142, 142, 234), rgb(207, 188, 207));
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    border: 2px solid rgb(58, 57, 57);
+}
+
+.elsideNavBar {
+    grid-column: 1 /span 12;
+    grid-row: 1 /span 2;
+}
+
+.elFooter {
+    grid-column: 1/span 12;
+    grid-row: 11 /span 12;
+}
+
+.elMainPage {
+    grid-column: 1 /span 6;
+    grid-row: 3 /span 8 ;
+}
+
+.eladdvert {
+    grid-column: 6 /span 12;
+    grid-row: 3 /span 8;
+}
+
+.elsideNavBar {
+
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.logo {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.elsideNavBar .bar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+
+}
+
+.bar li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: none;
+}
+
+li a {
+    padding: 15px 25px;
+    color: black;
+}
+
+.bar :hover {
+    background: linear-gradient(to top, rgb(142, 142, 234), rgb(207, 188, 207));
+
+    color: black;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.elMainPage img {
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, rgb(142, 142, 234), rgb(207, 188, 207));
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+
+    display: flex;
+}
+
+.elMainPage {
+    border-radius: 0 20px;
+    transition: 1s ease;
+    animation-duration: 2ms;
+
+}
+
+
+.fast {
+    display: flex;
+    justify-content: center;
+}
+
+.eladdvert .hellow {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 1px black;
+}
+
+.hireMe {
+    display: flex;
+    justify-content: center;
+    padding-top: 79px;
+    transition: 5ms ease;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    background: none;
+
+}
+
+.btn .bt {
+    color: rgb(5, 5, 5);
+    padding: 8px 4px;
+    background: linear-gradient(to top, rgb(142, 142, 234), rgb(207, 188, 207));
+    border-radius: 7px;
+}
+
+.btn :hover {
+    background: rgba(68, 65, 65, 0.307);
+
+}
+
+.elFooter:hover {
+    background: linear-gradient(to top, rgb(142, 142, 234), rgb(207, 188, 207));
+}
+
+.icon .facebook {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/* footer section  */
+
+.follow {
+    display: flex;
+    justify-content: center;
+    color: rgb(119, 116, 116);
+    /*font-style: cursive;*/
+
+}
+
+.icon .facebook li a {
+    display: flex;
+    color: rgb(119, 116, 116);
+    margin: 0 10px;
+}
+
+.bbb {
+    font-size: 200%;
+}
+
+.facebook :hover {
+    /*noinspection CssInvalidPropertyValue*/
+    background: transparent white;
+}
+
+@-ms-viewport {
+
+}

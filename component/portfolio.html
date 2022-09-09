@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gallery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheet/portfolio.css">
+</head>
+<body>
+<div class="container-fluid">
+
+    <div class="el column-1">
+
+        <nav class="logo">
+            <h1>RawMetal</h1>
+        </nav>
+
+        <form action="/signup" method="post">
+            <p>
+                <label>Title</label><br>
+                <label>
+                    <input type="radio" name="title" value="mr">
+                    Mr
+                </label>
+                <label>
+                    <input type="radio" name="title" value="mrs">
+                    Mrs
+                </label>
+                <label>
+                    <input type="radio" name="title" value="miss">
+                    Miss
+                </label>
+            </p>
+            <p>
+                <label>First name</label><br>
+                <input type="text" name="first_name">
+            </p>
+            <p>
+                <label>Last name</label><br>
+                <input type="text" name="last_name">
+            </p>
+            <p>
+                <label>Email</label><br>
+                <input type="email" name="email" required>
+            </p>
+            <p>
+                <label>Phone number</label><br>
+                <input type="tel" name="phone">
+            </p>
+            <p>
+                <label>Password</label><br>
+                <input type="password" name="password">
+            </p>
+            <p>
+                <label>Country</label><br>
+                <select>
+                    <option>Germany</option>
+                    <option>united kingdom</option>
+                    <option>United States</option>
+                    <option>Indonesia</option>
+                    <option>Brazil</option>
+                </select>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" value="terms">
+                    I agree to the <a href="/terms">terms and conditions </a>
+                </label>
+            </p>
+            <p>
+                <button>Sign up</button>
+                <button type="reset">Reset form</button>
+            </p>
+        </form>
+
+    </div>
+
+    </div>
+<div>
+<!--<h1>My First Web Page</h1>-->
+<!--<p>My First Paragraph</p>-->
+
+<p id="emo"></p>
+
+
+
+</div>
+    <script src="/backend/Script.js"></script>
+</body>
+</html>
