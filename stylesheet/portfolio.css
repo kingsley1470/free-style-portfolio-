@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    font-size: ;
-    /*overflow:hidden;*/
+    font-size: 16px;
+    box-sizing: border-box;
 }
 .container-fluid {
     height: 100vh;
